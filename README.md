@@ -13,7 +13,7 @@ The repository contains the code for the All Contributors documentation website.
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -21,7 +21,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## Contributing
 All Contributors uses Docusaurus to maintain our documentation website. For more info visit the [Docusaurus Website](https://docusaurus.io)
