@@ -2,11 +2,19 @@
   "scripts": {
     "start": "cd website && ../node_modules/.bin/docusaurus-start",
     "build": "cd website && ../node_modules/.bin/docusaurus-build",
-    "publish-gh-pages": "cd website && ../node_modules/.bin/docusaurus-publish"
+    "publish-gh-pages": "cd website && ../node_modules/.bin/docusaurus-publish",
+    "commit": "npx git-cz"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.6.0",
+    "cz-conventional-changelog": "^2.1.0",
     "docusaurus": "^1.6.2",
+    "git-cz": "^1.8.0",
     "react": "^16.6.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
