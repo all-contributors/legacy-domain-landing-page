@@ -1,5 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["overview"]
+    "Specification": ["overview", "specification", "emoji-key", "repository-maintainers"],
+    "Tools": ["github-bot", "cli"]
   }
 }

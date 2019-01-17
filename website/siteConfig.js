@@ -17,7 +17,7 @@ const siteConfig = {
     favicon: 'img/icons/favicon-32x32.png',
     colors: {
         primaryColor: '#008DF9',
-        secondaryColor: '#f9316d',
+        secondaryColor: '#0e0c33',
     },
     customDocsPath: 'docs',
     gaTrackingId: 'UA-131821931-1',

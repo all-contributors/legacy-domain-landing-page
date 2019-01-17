@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Overview ✨
+title: Overview
 ---
 
 > There is [now a GitHub Bot](/docs/github-bot) for automating the maintenance of your contributors table ✨<br />Say goodbye to command line tool dependencies and hello to the [@all-contributors bot 🤖](/docs/github-bot)

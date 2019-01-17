@@ -1,4 +1,3 @@
-##
 ---
 id: emoji-key
 title: Emoji key reference ✨
