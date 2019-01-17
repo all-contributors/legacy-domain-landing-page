@@ -16,8 +16,8 @@ const siteConfig = {
     footerIcon: 'img/icons/logo-square-transparent.png',
     favicon: 'img/icons/favicon-32x32.png',
     colors: {
-        primaryColor: '#008DF9',
-        secondaryColor: '#0e0c33',
+        primaryColor: '#0e0c33',
+        secondaryColor: '#008DF9',
     },
     customDocsPath: 'docs',
     gaTrackingId: 'UA-131821931-1',
@@ -39,6 +39,7 @@ const siteConfig = {
 
     // Show documentation's last contributor's name.
     enableUpdateBy: true,
+    enableUpdateTime: true,
 }
 
 module.exports = siteConfig

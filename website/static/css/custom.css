@@ -56,3 +56,7 @@ article p img, article iframe {
     background: #fff !important;
     color: #0e0c33 !important;
 }
+
+a {
+    color: #008DF9;
+}
