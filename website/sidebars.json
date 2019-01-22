@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Specification": ["overview", "specification", "emoji-key", "repository-maintainers"],
+    "Specification": ["overview", "specification", "contribution-types-emoji-reference", "repository-maintainers"],
     "Tools": ["github-bot", "cli"]
   }
 }

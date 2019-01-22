@@ -19,19 +19,16 @@ The basic idea is this:
 People are giving of themselves and their free time to contribute to open source projects in so many ways. It can be a real
 time sink sometimes and so they should be praised for all their contributions (code or not).
 
-*TODO: Insert screenshot*
+## The All Contributors Table
+A project using the all-contributors spec table:
+<div align="center">
+    <img src="/img/screenshots/contributors-table-small.png" alt="Contributors Table Screenshot" width="800px" />
+</div>
 
-## From here?
-    - The all contributors specification
-    - Emoji Refrence Key
-    - Notes for repository maintainers
-    - Automating the process using the GitHub Bot
-    - Alternatively: Automating the process using the CLI tool
-
-## Tools for updating your all-contributors table
-
-If you find maintaining the list of contributors tedious, say hello to the [@all-contributors bot 🤖](/docs/github-bot)
-
-If you prefer command line tools, there is also the [all-contributors CLI tool](/docs/cli)
-
+## Whats next
+- [The all contributors specification](/docs/specification)
+- [Contribution Types and Emoji Reference](/docs/contribution-types-emoji-reference)
+- [Notes for repository maintainers](/docs/repository-maintainers)
+- [Automating the process using the @all-contributors bot 🤖 on GitHub](/docs/github-bot)
+- [Automating the process using the CLI tool](/docs/cli)
 

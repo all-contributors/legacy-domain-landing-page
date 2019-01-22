@@ -3,6 +3,10 @@ id: specification
 title: Specification
 ---
 
+<div align="center">
+    <img src="/img/screenshots/contributors-table-small.png" alt="Contributors Table Screenshot" width="800px" />
+</div>
+
 ## Mandatory
 Open source projects should include the following mandatory items in order to support the All Contributors specification:
 
@@ -25,4 +29,10 @@ Projects should consider the following optional items as part of their commitmen
 
 1. The user's avatar can be included and is recommended.
 3. An optional link from the Contribution Category indicator to the category-specific contribution(s) can be included to provide additional information about the project contribution(s) as detailed in the section below.
+
+## Whats next
+- [Contribution Types and Emoji Reference](/docs/contribution-types-emoji-reference)
+- [Notes for repository maintainers](/docs/repository-maintainers)
+- [Automating the process using the @all-contributors bot 🤖 on GitHub](/docs/github-bot)
+- [Automating the process using the CLI tool](/docs/cli)
 
