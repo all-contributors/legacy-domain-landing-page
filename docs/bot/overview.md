@@ -24,8 +24,6 @@ Hello, `@all-contributors` to help automate adding contributor acknowledgements
     <img alt="Example usage screenshot" src="../assets/bot-usage.png" width="500px">
 </a>
 
-
-
 - [Installing the Bot](/docs/bot/installation)
 - [Using the Bot](/docs/bot/usage)
 - [Configuring the Bot](/docs/bot/configuration)

@@ -17,13 +17,14 @@ should be installed as one of your project's `devDependencies`:
 yarn add --dev all-contributors-cli # or npm
 ```
 
-> The CLI is node based, if you don't wish to add a node depdendency to your project use the [@all-contributors bot 🤖](/docs/bot/overview)
+> The CLI is node based, if you don't wish to add a node depdendency use the [@all-contributors bot 🤖](/docs/bot/overview)
 
 
-## 2. Then init the project using `init` and answer a few questions
+## 2. Init the Project
+Init the project using `init` and answer a few questions
 
 ```console
-yarn all-contributors init
+yarn all-contributors init # npm run
 
 # Or directly execute the bin
 ./node_modules/.bin/all-contributors init
@@ -38,7 +39,7 @@ For more on the commands see [CLI usage](/docs/cli/usage)
 
 
 ## 4. Update your Contributing documentation
-Consider updating your `CONTRIBUTING.md` or similar with steps on how your contributors can add themselves. You can even link to the [usage documentation](/docs/cli/usage).
+Consider updating your `CONTRIBUTING.md` or similar with steps on how your contributors can add themselves. You can even link to the [cli usage documentation](/docs/cli/usage).
 
 
 ## 5. *Optionally* add shortcut scripts to your `package.json`

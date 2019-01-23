@@ -43,11 +43,13 @@ const siteConfig = {
     enableUpdateTime: true,
 
     // Search
-    algolia: {
-        apiKey: 'my-api-key',
-        indexName: 'my-index-name',
-        algoliaOptions: {} // Optional, if provided by Algolia
-    },
+    // algolia: {
+    //     apiKey: 'my-api-key',
+    //     indexName: 'my-index-name',
+    //     algoliaOptions: {
+    //         facetFilters: [ "language:LANGUAGE" ]
+    //     }
+    // },
 }
 
 module.exports = siteConfig
