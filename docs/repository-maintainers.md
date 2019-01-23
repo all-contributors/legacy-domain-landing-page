@@ -1,13 +1,14 @@
 ---
 id: repository-maintainers
-title: Notes for Repository maintainers
+title: Notes for Repository Maintainers
+sidebar_label: Repository Maintainers
 ---
 
 Contributors should be recognised as soon as the contribution is discovered to help ensure their efforts are not
 overlooked when the list gets updated at a later date. This can be difficult for contributions that are not the
 result of a commit to repository but do your best to minimise the time between the contribution and updating the list.
 
-> **Pro tip:** If your project is configured for [the @all-contributors bot 🤖](/docs/github-bot) simply write a comment on an issue or pull request to recognise their contribution. e.g. `@all-contributors please add @tbenning for design` ✨
+> **Pro tip:** If your project is configured for [the @all-contributors bot 🤖](/docs/bot/overview) simply write a comment on an issue or pull request to recognise their contribution. e.g. `@all-contributors please add @tbenning for design` ✨
 
 Being the owner or a maintainer of the repository does not mean you are solely responsible for keeping the list of
 contributors up to date. You should encourage contributors to add themselves to the list as much as possible.
@@ -23,5 +24,4 @@ In the end, there are no hard and fast rules for when a contribution has to be a
 just do your best to be fair and to ensure all contributors are recognised.
 
 ## Whats next
-- [Automating the process using the @all-contributors bot 🤖 on GitHub](/docs/github-bot)
-- [Automating the process using the CLI tool](/docs/cli)
+- [Automating the process using tools](/docs/tooling)

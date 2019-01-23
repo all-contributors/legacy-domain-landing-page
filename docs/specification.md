@@ -1,10 +1,11 @@
 ---
 id: specification
 title: Specification
+sidebar_label: Specification
 ---
 
 <div align="center">
-    <img src="/img/screenshots/contributors-table-small.png" alt="Contributors Table Screenshot" width="800px" />
+    <img src="assets/contributors-table-small.png" alt="Contributors Table Screenshot" width="800px" />
 </div>
 
 ## Mandatory
@@ -22,7 +23,7 @@ Open source projects should include the following mandatory items in order to su
     - The order of contributors is immaterial to the spec. Order them how you wish.
 3. Projects should define contributors as those who contribute to a project in any of the Contribution Categories at any level of contribution.  This specification is, by definition, inclusive of all contributions.  In cases where projects deviate from the Contribution Categories or require a specific contribution level in order to meet criteria as a project contributor, the project should provide explicit documentation of the definitions that satisfy the project contributor criteria in the CONTRIBUTING document or a similar prominent public document at the top level of the project repository.  This specification recommends against exclusion of an individual from the Contributor list based upon perceived level of contribution.  Instead, projects should use indicators of effort within a list that remains inclusive of all contributors to the project at any level of effort.  If used, these effort indicators are at the discretion of the project and are not currently specified.
 
-> **Pro tip:** You can use [the @all-contributors bot 🤖](/docs/github-bot) for automating the creation of your contributors table ✨
+> **Pro tip:** You can use [the @all-contributors bot 🤖](/docs/bot/overview) for automating the creation of your contributors table ✨
 
 ## Optional
 Projects should consider the following optional items as part of their commitment to the All Contributors specification:
@@ -31,8 +32,7 @@ Projects should consider the following optional items as part of their commitmen
 3. An optional link from the Contribution Category indicator to the category-specific contribution(s) can be included to provide additional information about the project contribution(s) as detailed in the section below.
 
 ## Whats next
-- [Contribution Types and Emoji Reference](/docs/contribution-types-emoji-reference)
+- [Emoji Key (Contribution Types Reference)](/docs/emoji-key)
 - [Notes for repository maintainers](/docs/repository-maintainers)
-- [Automating the process using the @all-contributors bot 🤖 on GitHub](/docs/github-bot)
-- [Automating the process using the CLI tool](/docs/cli)
+- [Automating the process using tools](/docs/tooling)
 

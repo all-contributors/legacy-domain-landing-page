@@ -1,14 +1,16 @@
 ---
 id: overview
 title: Overview
+sidebar_label: Overview
 ---
 
-> There is [now a GitHub Bot](/docs/github-bot) for automating the maintenance of your contributors table ✨<br />Say goodbye to command line tool dependencies and hello to the [@all-contributors bot 🤖](/docs/github-bot)
-
 <div align="center">
-    <img src="/img/icons/logo-full-transparent.png" alt="✨ All Contributors ✨" width="800px" />
+    <img src="assets/logo-full-transparent.png" alt="✨ All Contributors ✨" width="800px" />
 </div>
 
+<a href="https://github.com/all-contributors/all-contributors/stargazers">
+    <img src="https://img.shields.io/github/stars/all-contributors/all-contributors.svg" alt="Star on GitHub" />
+</a>
 
 This is a specification for recognizing contributors to an open source project in a way that rewards each and every contribution, not just code.
 
@@ -22,13 +24,14 @@ time sink sometimes and so they should be praised for all their contributions (c
 ## The All Contributors Table
 A project using the all-contributors spec table:
 <div align="center">
-    <img src="/img/screenshots/contributors-table-small.png" alt="Contributors Table Screenshot" width="800px" />
+    <img src="assets/contributors-table-small.png" alt="Contributors Table Screenshot" width="800px" />
 </div>
+
+> There is [now a GitHub Bot](/docs/bot/overview) for automating the creation of your contributors table ✨<br />Say goodbye to command line tool dependencies and hello to the [@all-contributors bot 🤖](/docs/bot/overview)
 
 ## Whats next
 - [The all contributors specification](/docs/specification)
-- [Contribution Types and Emoji Reference](/docs/contribution-types-emoji-reference)
+- [Emoji Key (Contribution Types Reference)](/docs/emoji-key)
 - [Notes for repository maintainers](/docs/repository-maintainers)
-- [Automating the process using the @all-contributors bot 🤖 on GitHub](/docs/github-bot)
-- [Automating the process using the CLI tool](/docs/cli)
+- [Automating the process using tools](/docs/tooling)
 

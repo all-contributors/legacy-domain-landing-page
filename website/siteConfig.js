@@ -8,6 +8,7 @@ const siteConfig = {
     projectName: 'website',
     organizationName: 'all-contributors',
     // End deploy options
+    editUrl: 'https://github.com/all-contributors/website/tree/master/docs/',
     headerLinks: [
         { doc: 'overview', label: 'Docs' },
         { href: "https://github.com/all-contributors/all-contributors", label: "GitHub" },
@@ -40,6 +41,13 @@ const siteConfig = {
     // Show documentation's last contributor's name.
     enableUpdateBy: true,
     enableUpdateTime: true,
+
+    // Search
+    algolia: {
+        apiKey: 'my-api-key',
+        indexName: 'my-index-name',
+        algoliaOptions: {} // Optional, if provided by Algolia
+    },
 }
 
 module.exports = siteConfig
