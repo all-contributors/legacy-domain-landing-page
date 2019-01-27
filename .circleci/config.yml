@@ -63,7 +63,7 @@ workflows:
       - node_modules
       - deploy_website:
           requires:
-            - website
+            - node_modules
           filters:
             branches:
               only:
