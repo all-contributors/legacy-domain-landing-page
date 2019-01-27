@@ -2,6 +2,7 @@
 
 
 ## Translations
+Locally you need the crowdin CLI tool: `brew install crowdin`
 Translations by crowdin: https://crowdin.com/project/all-contributors/settings#files
 
 ## Search
