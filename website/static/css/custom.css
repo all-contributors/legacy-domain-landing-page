@@ -126,7 +126,8 @@ body {
   --ppl-100: #0f0b33;
   --pl-10: #fafaff;
   --primary-text: #0f0b33;
-  --secondary-text: #615e7c;
+  --secondary-text: #312f45;
+  --tertiary-text: #615e7c;
   --colored-text: #2d2298;
   --brand-color: #2d2298;
   --link-color: #6e60e6;
@@ -183,11 +184,14 @@ p {
 .hero h1 {
   font-size: 52px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 .hero p {
   font-size: 32px;
   line-height: 1.5;
 }
+
+/*--How To--*/
 
 .how-to {
   display: flex;
