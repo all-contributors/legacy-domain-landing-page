@@ -122,12 +122,12 @@ const languages = [
     tag: 'pl',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Português',
     tag: 'pt-PT',
   },
   {
-    enabled: true,
+    enabled: false,
     name: 'Português (Brasil)',
     tag: 'pt-BR',
   },

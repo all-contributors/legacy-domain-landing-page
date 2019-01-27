@@ -5,14 +5,14 @@ preserve_hierarchy: true
 
 files:
   -
-    source: '/docs/*.md'
-    translation: '/website/translated_docs/%locale%/%original_file_name%'
+    source: '/docs/**/*.md'
+    translation: '/website/translated_docs/%locale%/**/%original_file_name%'
     languages_mapping: &anchor
       locale:
         'es-ES': 'es-ES'
         'fr': 'fr'
         'ko': 'ko'
-        'pt-BR': 'pt-BR'
+        'pt-PT': 'pt-PT'
 
   -
     source: '/website/i18n/en.json'
