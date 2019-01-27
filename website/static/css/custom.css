@@ -172,6 +172,8 @@ p {
   text-align: center;
 }
 
+/*--Buttons */
+
 /*--Hero --*/
 .hero {
   display: flex;
@@ -189,6 +191,14 @@ p {
 .hero p {
   font-size: 32px;
   line-height: 1.5;
+}
+
+/*--Benefits--*/
+.benefits h2 {
+  margin-bottom: 8px;
+}
+.benefits p {
+  margin-bottom: 32px;
 }
 
 /*--How To--*/
