@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
     <title>All Contributors</title>
   </head>
   <body>
-    <header>
+    <header class="container">
       <img src="https://source.unsplash.com/350x40" alt="logo" />
       <nav>
         <ul>
@@ -18,10 +23,14 @@
       </nav>
     </header>
     <div class="hero container">
-      <h1>Recognizing All Contributors</h1>
-      <p>(Including those that don't push code)</p>
-      <button class="hero-button">Add to Project</button>
-      <img src="https://source.unsplash.com/745x550" alt="hero image" />
+      <div class="col-6">
+        <h1>Recognize All Contributors</h1>
+        <p>Including those that don't push code</p>
+        <button class="hero-button">Add to Project</button>
+      </div>
+      <div class="col-7">
+        <img src="https://source.unsplash.com/745x550" alt="hero image" />
+      </div>
     </div>
     <div class="container centred-content">
       <h2>Add New Contributors in Seconds</h2>
@@ -37,49 +46,62 @@
 
     <div class="container tile-group">
       <div class="tile">
-        <img src="https://source.unsplash.com/80x80" alt="icon" />
-        <h3>Read the Documentation</h3>
+        <a href="#">
+          <img src="https://source.unsplash.com/80x80" alt="icon" />
+          <h3>Read the Documentation</h3>
+        </a>
       </div>
       <div class="tile">
-        <img src="https://source.unsplash.com/80x80" alt="icon" />
-        <h3>Emoji Key (Contributions Cheatsheet)</h3>
+        <a href="#">
+          <img src="https://source.unsplash.com/80x80" alt="icon" />
+          <h3>Emoji Key (Contributions Cheatsheet)</h3>
+        </a>
       </div>
       <div class="tile">
-        <img src="https://source.unsplash.com/80x80" alt="icon" />
-        <h3>How to Use the Bot</h3>
+        <a href="#">
+          <img src="https://source.unsplash.com/80x80" alt="icon" />
+          <h3>How to Use the Bot</h3>
+        </a>
       </div>
       <div class="tile">
-        <img src="https://source.unsplash.com/80x80" alt="icon" />
-        <h3>Subit an Issue</h3>
+        <a href="#">
+          <img src="https://source.unsplash.com/80x80" alt="icon" />
+          <h3>Submit an Issue</h3>
+        </a>
       </div>
 
-      <div class="container content-right">
-        <img src="https://source.unsplash.com/612x586" alt="icon" />
-        <h2>How it Works</h2>
-        <ol>
-          <li>
-            <h3>Install the All Contributors Bot</h3>
-            <p>Check the <a href="@">ReadMe</a> and add it to your project</p>
-          </li>
-          <li>
-            <h3>Mention @all-contributors</h3>
-            <p>This will also add a Contributor Table to your ReadMe</p>
-          </li>
-          <li>
-            <h3>Add a contributor’s username and contribution type</h3>
-            <p>
-              Check the contribution types in the Contribution Types Cheatsheet
-            </p>
-          </li>
-          <li>
-            <h3>Post a comment or pull request</h3>
-            <p>This will get our bot started</p>
-          </li>
-          <li>
-            <h3>Your ReadMe updates automatically!</h3>
-            <p>Wash, rinse, &amp; repeat</p>
-          </li>
-        </ol>
+      <div class="container how-to">
+        <div class="col-6">
+          <img src="https://source.unsplash.com/612x586" alt="icon" />
+        </div>
+        <div class="col-5">
+          <h2>How it Works</h2>
+          <ol>
+            <li>
+              <h3>1. Install the All Contributors Bot</h3>
+              <p>Check the <a href="@">ReadMe</a> and add it to your project</p>
+            </li>
+            <li>
+              <h3>2. Mention @all-contributors</h3>
+              <p>This will also add a Contributor Table to your ReadMe</p>
+            </li>
+            <li>
+              <h3>3. Add a contributor’s username and contribution type</h3>
+              <p>
+                Check the contribution types in the Contribution Types
+                Cheatsheet
+              </p>
+            </li>
+            <li>
+              <h3>4. Post a comment or pull request</h3>
+              <p>This will get our bot started</p>
+            </li>
+            <li>
+              <h3>5. Your ReadMe updates automatically!</h3>
+              <p>Wash, rinse, &amp; repeat</p>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
 
