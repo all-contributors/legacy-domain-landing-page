@@ -5,15 +5,46 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require('react')
+const CompLibrary = require('../../core/CompLibrary.js')
 
-const CompLibrary = require('../../core/CompLibrary.js');
-
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
+const MarkdownBlock = CompLibrary.MarkdownBlock /* Used to read markdown */
+const Container = CompLibrary.Container
+const GridBlock = CompLibrary.GridBlock
 
 const users = [
+  {
+    caption: 'User1',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/docusaurus.svg',
+    infoLink: 'https://www.facebook.com',
+    pinned: true,
+  },
+  {
+    caption: 'User1',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/docusaurus.svg',
+    infoLink: 'https://www.facebook.com',
+    pinned: true,
+  },
+  {
+    caption: 'User1',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/docusaurus.svg',
+    infoLink: 'https://www.facebook.com',
+    pinned: true,
+  },
+  {
+    caption: 'User1',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/docusaurus.svg',
+    infoLink: 'https://www.facebook.com',
+    pinned: true,
+  },
   {
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
@@ -26,11 +57,11 @@ const users = [
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
-    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+    const { siteConfig, language = '' } = this.props
+    const { baseUrl, docsUrl } = siteConfig
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`
+    const langPart = `${language ? `${language}/` : ''}`
+    const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`
 
     const SplashContainer = props => (
       <div className="homeContainer">
@@ -38,20 +69,20 @@ class HomeSplash extends React.Component {
           <div className="wrapper homeWrapper">{props.children}</div>
         </div>
       </div>
-    );
+    )
 
     const Logo = props => (
       <div className="projectLogo">
         <img src={props.img_src} alt="Project Logo" />
       </div>
-    );
+    )
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
         <small>{siteConfig.tagline}</small>
       </h2>
-    );
+    )
 
     const PromoSection = props => (
       <div className="section promoSection">
@@ -59,7 +90,7 @@ class HomeSplash extends React.Component {
           <div className="pluginRowBlock">{props.children}</div>
         </div>
       </div>
-    );
+    )
 
     const Button = props => (
       <div className="pluginWrapper buttonWrapper">
@@ -67,7 +98,7 @@ class HomeSplash extends React.Component {
           {props.children}
         </a>
       </div>
-    );
+    )
 
     return (
       <SplashContainer>
@@ -81,14 +112,14 @@ class HomeSplash extends React.Component {
           </PromoSection>
         </div>
       </SplashContainer>
-    );
+    )
   }
 }
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props
+    const { baseUrl } = siteConfig
 
     const Block = props => (
       <Container
@@ -101,16 +132,16 @@ class Index extends React.Component {
           layout={props.layout}
         />
       </Container>
-    );
+    )
 
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
+        style={{ textAlign: 'center' }}>
         <h2>Feature Callout</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
       </div>
-    );
+    )
 
     const TryOut = () => (
       <Block id="try">
@@ -123,7 +154,7 @@ class Index extends React.Component {
           },
         ]}
       </Block>
-    );
+    )
 
     const Description = () => (
       <Block background="dark">
@@ -137,7 +168,7 @@ class Index extends React.Component {
           },
         ]}
       </Block>
-    );
+    )
 
     const LearnHow = () => (
       <Block background="light">
@@ -150,7 +181,7 @@ class Index extends React.Component {
           },
         ]}
       </Block>
-    );
+    )
 
     const Features = () => (
       <Block layout="fourColumn">
@@ -169,7 +200,7 @@ class Index extends React.Component {
           },
         ]}
       </Block>
-    );
+    )
 
     const Showcase = () => {
       const showcase = users
@@ -178,9 +209,9 @@ class Index extends React.Component {
           <a href={user.infoLink} key={user.infoLink}>
             <img src={user.image} alt={user.caption} title={user.caption} />
           </a>
-        ));
+        ))
 
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
+      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page
 
       return (
         <div className="productShowcaseSection paddingBottom">
@@ -193,8 +224,8 @@ class Index extends React.Component {
             </a>
           </div>
         </div>
-      );
-    };
+      )
+    }
 
     return (
       <div>
@@ -208,8 +239,8 @@ class Index extends React.Component {
           <Showcase />
         </div>
       </div>
-    );
+    )
   }
 }
 
-module.exports = Index;
+module.exports = Index
