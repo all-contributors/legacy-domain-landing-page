@@ -224,7 +224,7 @@ p {
 }
 
 .header nav {
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
 }
 
 .header nav a {
@@ -246,10 +246,14 @@ p {
 .hero::before {
   content: '';
   background: url(../img/bg-swoop.svg);
+  background-size: 2045px 380px;
   bottom: 0;
-  left: -500px;
+  left: 0;
+  background-position: -430px;
+  background-position: 62%;
+  left: -20px;
   height: 380px;
-  width: 2045px;
+  width: calc(100% + 40px);
   position: absolute;
   z-index: -100;
 }
@@ -258,7 +262,7 @@ p {
   position: relative;
   display: flex;
   padding-top: 50px;
-  padding-bottom: 240px;
+  padding-bottom: 200px;
   align-items: center;
 }
 .hero img {
@@ -355,6 +359,10 @@ p {
 .tile img {
   margin: 20px;
 }
+
+.tile h5 {
+  margin-bottom: 0;
+}
 /*--Users--*/
 .users {
   padding-top: 60px;
@@ -386,13 +394,36 @@ footer {
 
 /* Existing custom css */
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 1023px) {
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 360px) {
+  .hero {
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
+  h1,
+  .hero h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
