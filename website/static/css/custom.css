@@ -403,7 +403,7 @@ footer {
 @media only screen and (min-device-width: 360px) and (max-device-width: 1023px) {
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   .hero {
     flex-wrap: wrap;
   }
@@ -413,6 +413,15 @@ footer {
 
   .hide-mobile {
     display: none;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
+
+  .final-cta h4 {
+    margin-bottom: 12px;
   }
 }
 
