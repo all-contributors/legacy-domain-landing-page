@@ -25,7 +25,7 @@ p {
 :root {
   --ppl-100: #0f0b33;
   --ppl-60: #2d2298;
-  --ppl-10: #fafaff;
+  --ppl-10: #f2f2fb;
   --primary-text: #0f0b33;
   --secondary-text: #312f45;
   --tertiary-text: #615e7c;
@@ -208,7 +208,7 @@ p {
 }
 
 .cta-secondary:hover {
-  background: #fafaff;
+  background: var(--ppl-10);
   border: 2px solid #e7e6f2;
 }
 
@@ -247,7 +247,7 @@ p {
   content: '';
   background: url(../img/bg-swoop.svg);
   background-size: 2045px 380px;
-  bottom: 0;
+  bottom: -40px;
   left: 0;
   background-position: -430px;
   background-position: 62%;
@@ -274,7 +274,7 @@ p {
   margin-bottom: 8px;
 }
 .hero p {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.5;
   margin-bottom: 60px;
 }
@@ -304,7 +304,7 @@ p {
 
 .how-to {
   display: flex;
-  padding: 60px 0;
+  padding-top: 60px;
 }
 
 .how-to h2 {
@@ -350,10 +350,12 @@ p {
   justify-content: flex-start;
   align-items: center;
   text-decoration: none;
+  transition: 0.35s;
 }
 .tile a:hover {
+  transition: 0.35s;
   border: 2px solid #6e60e6;
-  background: #fafaff;
+  background: var(--ppl-10);
 }
 
 .tile img {
@@ -365,15 +367,19 @@ p {
 }
 /*--Users--*/
 .users {
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.users p {
+  margin-bottom: 32px;
 }
 
 /*--final cta--*/
 .final-cta {
   padding-top: 40px;
-  padding-bottom: 80px;
-  background: #fafaff;
+  padding-bottom: 60px;
+  background: var(--ppl-10);
 }
 
 .final-cta h4 {
