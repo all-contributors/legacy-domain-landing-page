@@ -14,13 +14,16 @@
     <title>All Contributors</title>
   </head>
   <body>
-    <header class="container">
-      <img src="https://source.unsplash.com/350x40" alt="logo" />
+    <header class="container header">
+      <a href="#"><img class="logo" src="./img/logo.svg" alt="logo"/></a>
       <nav>
         <ul>
-          <li>Docs</li>
-          <li>About</li>
-          <li>Github</li>
+          <li><a href="/docs/overview">Docs</a></li>
+          <li>
+            <a href="https://github.com/all-contributors/all-contributors"
+              >Github</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -28,90 +31,111 @@
       <div class="col-6">
         <h1>Recognize All Contributors</h1>
         <p>Including those that don't push code</p>
-        <button class="hero-button">Add to Project</button>
+        <a href="/docs/bot/installation" class="hero-button cta-button"
+          >Add to Project</a
+        >
       </div>
       <div class="col-7">
-        <img src="https://source.unsplash.com/745x550" alt="hero image" />
+        <img
+          src="./img/hero.png"
+          srcset="./img/hero.png 1x, ./img/hero@2x.png 2x"
+          alt="hero image"
+        />
       </div>
     </div>
-    <div class="container centred-content benefits">
-      <h2>Add New Contributors in Seconds</h2>
-      <p>
-        We’ve automated the tedious stuff for adding project contributors, so
-        you can focus on your project instead of managing your ReadMe.
-      </p>
-      <img
-        src="https://source.unsplash.com/814x372"
-        alt="contributors screenshot"
-      />
+    <div class="benefits">
+      <div class="container centred-content ">
+        <h2>Add New Contributors in Seconds</h2>
+        <p>
+          We’ve automated the tedious stuff for adding project contributors, so
+          you can focus on your project instead of managing your ReadMe.
+        </p>
+        <img
+          src="./img/add-contributors.png"
+          srcset="
+            ./img/add-contributors.png    1x,
+            ./img/add-contributors@2x.png 2x
+          "
+          alt="contributors screenshot"
+        />
+      </div>
     </div>
 
-    <div class="container tile-group">
-      <div class="tile">
-        <a href="#">
-          <img src="https://source.unsplash.com/80x80" alt="icon" />
-          <h3>Read the Documentation</h3>
-        </a>
+    <div class="container quick-links">
+      <div class="tile-group">
+        <div class="tile col-6">
+          <a href="#">
+            <img src="https://source.unsplash.com/80x80" alt="icon" />
+            <h5>Read the Documentation</h5>
+          </a>
+        </div>
+        <div class="tile col-6">
+          <a href="#">
+            <img src="https://source.unsplash.com/80x80" alt="icon" />
+            <h5>Emoji Key (Contributions Cheatsheet)</h5>
+          </a>
+        </div>
       </div>
-      <div class="tile">
-        <a href="#">
-          <img src="https://source.unsplash.com/80x80" alt="icon" />
-          <h3>Emoji Key (Contributions Cheatsheet)</h3>
-        </a>
-      </div>
-      <div class="tile">
-        <a href="#">
-          <img src="https://source.unsplash.com/80x80" alt="icon" />
-          <h3>How to Use the Bot</h3>
-        </a>
-      </div>
-      <div class="tile">
-        <a href="#">
-          <img src="https://source.unsplash.com/80x80" alt="icon" />
-          <h3>Submit an Issue</h3>
-        </a>
+
+      <div class="tile-group">
+        <div class="tile col-6">
+          <a href="#">
+            <img src="https://source.unsplash.com/80x80" alt="icon" />
+            <h5>How to Use the Bot</h5>
+          </a>
+        </div>
+        <div class="tile col-6">
+          <a href="#">
+            <img src="https://source.unsplash.com/80x80" alt="icon" />
+            <h5>Submit an Issue</h5>
+          </a>
+        </div>
       </div>
 
       <div class="container how-to">
-        <div class="col-6">
-          <img src="https://source.unsplash.com/612x586" alt="icon" />
+        <div class="col-7">
+          <img
+            src="./img/how-it-works-graphic.png"
+            srcset="
+              ./img/how-it-works-graphic.png    1x,
+              ./img/how-it-works-graphic@2x.png 2x
+            "
+            alt="how it works"
+          />
         </div>
         <div class="col-5">
           <h2>How it Works</h2>
           <ol>
             <li>
-              <h3>1. Install the All Contributors Bot</h3>
-              <p>Check the <a href="@">ReadMe</a> and add it to your project</p>
-            </li>
-            <li>
-              <h3>2. Mention @all-contributors</h3>
-              <p>This will also add a Contributor Table to your ReadMe</p>
-            </li>
-            <li>
-              <h3>3. Add a contributor’s username and contribution type</h3>
+              <h3>1. Install the Bot to your project</h3>
               <p>
-                Check the contribution types in the Contribution Types
-                Cheatsheet
+                Check the
+                <a href="/docs/bot/installation"> Installation doc</a> for how
+                to add it
+              </p>
+            </li>
+            <li><h3>2. Start a pull request or comment</h3></li>
+            <li><h3>3. Mention the @all-contributors Bot</h3></li>
+            <li>
+              <h3>4. Add a contributor’s username and contribution type</h3>
+              <p>
+                Check the contribution types in the
+                <a href="/docs/emoji-key">Emoji Key Cheatsheet</a>
               </p>
             </li>
             <li>
-              <h3>4. Post a comment or pull request</h3>
-              <p>This will get our bot started</p>
-            </li>
-            <li>
-              <h3>5. Your ReadMe updates automatically!</h3>
-              <p>Wash, rinse, &amp; repeat</p>
+              <h3>5. Post and your ReadMe updates automatically!</h3>
+              <p>It'll add the Contributor Table for your first time, too</p>
             </li>
           </ol>
         </div>
       </div>
     </div>
 
-    <div class="container centred-content">
+    <div class="container centred-content users">
       <h2>Who's Using it?</h2>
       <p>There are 2000+ Projects using All Contributors!</p>
-      <div class="users">
-        <img src="https://source.unsplash.com/255x195" alt="" />
+      <div>
         <img src="https://source.unsplash.com/255x195" alt="" />
         <img src="https://source.unsplash.com/255x195" alt="" />
         <img src="https://source.unsplash.com/255x195" alt="" />
@@ -119,16 +143,16 @@
       </div>
     </div>
 
-    <div class="container centred-content">
-      <h2>Start Adding Contributors to Your Project Today</h2>
-      <button class="cta-primary">Add to Project</button>
-      <button class="cta-secondary">Read the Docs</button>
+    <div class="container final-cta centred-content">
+      <h4>Start adding contributors to your project today</h4>
+      <a href="/docs/bot/installation" class="cta-button cta-primary"
+        >Add to Project</a
+      >
+      <a href="/docs/overview" class="cta-button cta-secondary"
+        >Read the Docs</a
+      >
     </div>
 
-    <footer>
-      <p>TO DO - License Info</p>
-      <p>TO DO - Click to star it</p>
-      <img src="https://source.unsplash.com/100x100" alt="logo" />
-    </footer>
+    <footer><div class="container"></div></footer>
   </body>
 </html>

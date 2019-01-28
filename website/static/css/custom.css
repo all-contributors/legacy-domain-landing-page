@@ -1,4 +1,4 @@
-/*--Clear--*/
+/*--Clear & Set fonts--*/
 * {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
@@ -17,6 +17,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p {
+  line-height: 1.5;
+}
+
+/* CSS Variables */
+:root {
+  --ppl-100: #0f0b33;
+  --ppl-60: #2d2298;
+  --ppl-10: #fafaff;
+  --primary-text: #0f0b33;
+  --secondary-text: #312f45;
+  --tertiary-text: #615e7c;
+  --colored-text: #2d2298;
+  --brand-color: #2d2298;
+  --link-color: #6e60e6;
+}
 /*--Grid--*/
 .col-1,
 .col-2,
@@ -121,18 +137,6 @@ body {
   }
 }
 
-/* CSS Variables */
-:root {
-  --ppl-100: #0f0b33;
-  --pl-10: #fafaff;
-  --primary-text: #0f0b33;
-  --secondary-text: #312f45;
-  --tertiary-text: #615e7c;
-  --colored-text: #2d2298;
-  --brand-color: #2d2298;
-  --link-color: #6e60e6;
-}
-
 h1,
 h2,
 h3,
@@ -140,6 +144,7 @@ h4,
 h5,
 h6 {
   color: var(--primary-text);
+  margin-bottom: 8px;
 }
 
 h1 {
@@ -166,6 +171,7 @@ p {
 .container {
   margin: 0 auto;
   max-width: 1240px;
+  padding: 0 20px;
 }
 
 .centred-content {
@@ -173,11 +179,86 @@ p {
 }
 
 /*--Buttons */
+.cta-button {
+  text-decoration: none;
+  padding: 28px 48px;
+  background: #2d2298;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 12px 24px 0 rgba(110, 96, 230, 0.2),
+    0 4px 8px 0 rgba(45, 34, 152, 0.09);
+  transition: 0.35s;
+}
+
+.cta-button:hover {
+  transition: 0.35s;
+  background: #1e1576;
+  box-shadow: 0 18px 28px 0 rgba(110, 96, 230, 0.2),
+    0 8px 12px 0 rgba(45, 34, 152, 0.09);
+}
+
+.cta-secondary {
+  background: #fff;
+  color: var(--colored-text);
+  border: 2px solid rgba(0, 0, 0, 0);
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.cta-secondary:hover {
+  background: #fafaff;
+  border: 2px solid #e7e6f2;
+}
+
+/*---Header Nav--*/
+.logo {
+  height: 40px;
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav {
+  padding: 20px;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+.header nav a:hover {
+  color: #6e60e6;
+  border-bottom: 4px solid #6e60e6;
+  transition: 0.2s;
+}
+.header nav ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
 
 /*--Hero --*/
+.hero::before {
+  content: '';
+  background: url(../img/bg-swoop.svg);
+  bottom: 0;
+  left: -500px;
+  height: 380px;
+  width: 2045px;
+  position: absolute;
+  z-index: -100;
+}
+
 .hero {
+  position: relative;
   display: flex;
-  padding: 90px 0 200px 0;
+  padding-top: 50px;
+  padding-bottom: 240px;
   align-items: center;
 }
 .hero img {
@@ -189,34 +270,118 @@ p {
   margin-bottom: 8px;
 }
 .hero p {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.5;
+  margin-bottom: 60px;
 }
 
 /*--Benefits--*/
+.benefits {
+  background: var(--ppl-10);
+  padding-bottom: 40px;
+}
 .benefits h2 {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 .benefits p {
   margin-bottom: 32px;
+  font-size: 20px;
+  color: #2d2298;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.benefits img {
+  max-width: 100%;
 }
 
 /*--How To--*/
 
 .how-to {
   display: flex;
+  padding: 60px 0;
 }
 
+.how-to h2 {
+  margin-bottom: 32px;
+}
+
+.how-to h3 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+.how-to p {
+  line-height: 1.25;
+}
 .how-to ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+.how-to li {
+  margin-bottom: 40px;
+}
+
+.how-to p {
+  font-size: 14px;
+}
 .how-to img {
   width: 100%;
 }
-.how-to h3 {
-  font-size: 20px;
+
+/*-- Quick Link Tiles --*/
+.quick-links {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.tile-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tile a {
+  border: 2px solid #e7e6f2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+.tile a:hover {
+  border: 2px solid #6e60e6;
+  background: #fafaff;
+}
+
+.tile img {
+  margin: 20px;
+}
+/*--Users--*/
+.users {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+/*--final cta--*/
+.final-cta {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background: #fafaff;
+}
+
+.final-cta h4 {
+  margin-bottom: 60px;
+  color: var(--colored-text);
+}
+
+.final-cta .cta-button {
+  margin: 10px;
+}
+
+/*--Footer--*/
+footer {
+  background: var(--ppl-60);
+  color: #fff;
+  padding: 20px;
 }
 
 /* Existing custom css */
