@@ -397,9 +397,16 @@ footer {
 @media only screen and (min-device-width: 360px) and (max-device-width: 1023px) {
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
   .hero {
     flex-wrap: wrap;
+  }
+  .final-cta {
+    display: inline-grid;
+  }
+
+  .hide-mobile {
+    display: none;
   }
 }
 
@@ -408,7 +415,8 @@ footer {
   .hero h1 {
     font-size: 40px;
   }
-  h2 {
+  h2,
+  .benefits h2 {
     font-size: 32px;
   }
   h3 {
@@ -423,6 +431,9 @@ footer {
 
   .hero p {
     font-size: 24px;
+  }
+  .benefits p {
+    font-size: 18px;
   }
 }
 
