@@ -84,7 +84,7 @@ p {
 .col-12 {
   width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   .mobile-col-1,
   .mobile-col-2,
   .mobile-col-3,
@@ -190,6 +190,7 @@ p {
   box-shadow: 0 12px 24px 0 rgba(110, 96, 230, 0.2),
     0 4px 8px 0 rgba(45, 34, 152, 0.09);
   transition: 0.35s;
+  display: inline-block;
 }
 
 .cta-button:hover {
@@ -253,7 +254,7 @@ p {
   background-position: 62%;
   left: -20px;
   height: 380px;
-  width: calc(100% + 40px);
+  width: calc(100vw + 20px);
   position: absolute;
   z-index: -100;
 }
@@ -276,7 +277,7 @@ p {
 .hero p {
   font-size: 24px;
   line-height: 1.5;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /*--Benefits--*/
@@ -340,8 +341,15 @@ p {
   padding-bottom: 60px;
 }
 .tile-group {
+  padding: 10px;
   display: flex;
   margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: calc(50% - 20px);
+  margin: 10px;
 }
 
 .tile a {
@@ -399,32 +407,6 @@ footer {
 }
 
 /* Existing custom css */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 1023px) {
-}
-
-@media only screen and (max-width: 640px) {
-  .hero {
-    flex-wrap: wrap;
-  }
-  .final-cta {
-    display: inline-grid;
-  }
-
-  .hide-mobile {
-    display: none;
-  }
-
-  .cta-button {
-    font-size: 16px;
-    padding: 16px 24px;
-  }
-
-  .final-cta h4 {
-    margin-bottom: 12px;
-  }
-}
-
 @media only screen and (max-width: 1023px) {
   h1,
   .hero h1 {
@@ -449,6 +431,93 @@ footer {
   }
   .benefits p {
     font-size: 18px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 1023px) {
+}
+
+@media only screen and (max-width: 650px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .cta-button {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
+
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .header nav {
+    padding: 0;
+    text-align: center;
+  }
+  .header a {
+    text-align: center;
+  }
+  .header nav li,
+  .header nav ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .header,
+  .hero,
+  .how-to {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .hero div:nth-child(2) {
+    order: -1;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero {
+    margin-bottom: 20px;
+  }
+
+  .benefits {
+    margin-top: 40px;
+  }
+  .benefits h2 {
+    font-size: 28px;
+  }
+
+  .tile-group {
+    flex-direction: column;
+    padding: 0;
+    margin-top: -10px;
+  }
+  .tile {
+    width: calc(100% - 20px);
+  }
+
+  .how-to h2 {
+    margin-bottom: 20px;
+  }
+  .how-to li h3 {
+    font-size: 16px;
+  }
+
+  .how-to li {
+    margin-bottom: 20px;
+  }
+
+  .final-cta h4 {
+    margin-bottom: 12px;
   }
 }
 
