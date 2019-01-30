@@ -37,8 +37,6 @@ Emoji/Type | Represents | Comments
 📓 <br /> `userTesting` | User Testing | links to user test notes
 📹 <br /> `video` | Videos | links to the video
 
-*N/I: These contribution types are currently not supported by tooling.
-
 ## What's next
 - [Notes for repository maintainers](repository-maintainers)
 - [Automating the process using tools](tooling)
