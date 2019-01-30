@@ -22,7 +22,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars2.githubusercontent.com/u/3534236?v=4" width="100px;" alt="Jake Bolam"/><br /><sub><b>Jake Bolam</b></sub>](https://jakebolam.com)<br />[💻](https://github.com/all-contributors/website/commits?author=jakebolam "Code") [📖](https://github.com/all-contributors/website/commits?author=jakebolam "Documentation") [🚇](#infra-jakebolam "Infrastructure (Hosting, Build-Tools, etc)") | [<img src="https://avatars2.githubusercontent.com/u/7265547?v=4" width="100px;" alt="tbenning"/><br /><sub><b>tbenning</b></sub>](https://github.com/tbenning)<br />[🎨](#design-tbenning "Design") | [<img src="https://avatars2.githubusercontent.com/u/26620470?v=4" width="100px;" alt="이종진"/><br /><sub><b>이종진</b></sub>](https://jongjineee.github.io)<br />[🌍](#translation-Jongjineee "Translation") | [<img src="https://avatars1.githubusercontent.com/u/13991439?v=4" width="100px;" alt="Robert Lluberes"/><br /><sub><b>Robert Lluberes</b></sub>](https://robertlluberes.com)<br />[🌍](#translation-robertlluberes "Translation") | [<img src="https://avatars2.githubusercontent.com/u/21303543?v=4" width="100px;" alt="Wenqing Xue"/><br /><sub><b>Wenqing Xue</b></sub>](http://marsx.vip)<br /> |
+
 | :---: | :---: | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
