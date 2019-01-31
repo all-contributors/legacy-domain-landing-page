@@ -346,6 +346,7 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .tile-group {
   padding: 10px;
   display: flex;
@@ -374,6 +375,20 @@ p {
 
 .tile img {
   margin: 20px;
+}
+.tile-icon {
+  background: #f2f2fb;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tile:hover .tile-icon {
+  background: #fff;
 }
 
 .tile h5 {
@@ -487,6 +502,7 @@ footer {
 
   .hero h1 {
     font-size: 32px;
+    padding-top: 20px;
   }
 
   .hero p {
@@ -495,6 +511,8 @@ footer {
 
   .hero {
     margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
   }
 
   .benefits {
@@ -526,6 +544,9 @@ footer {
 
   .final-cta h4 {
     margin-bottom: 12px;
+  }
+  .cta-button {
+    width: 80%;
   }
 }
 
