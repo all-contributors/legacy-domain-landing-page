@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>All Contributors</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <title>All Contributors: ✨ Recognize all contributors, not just the ones who push code ✨</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="/css/homepage.css" />
     <script
       type="text/javascript"
       src="https://buttons.github.io/buttons.js"
@@ -18,10 +36,10 @@
   </head>
   <body>
     <header class="container header">
-      <a href="#"><img class="logo" src="./img/logo.svg" alt="logo"/></a>
+      <a href="#"><img class="logo" src="img/logo.svg" alt="logo"/></a>
       <nav>
         <ul>
-          <li><a href="/docs/overview">Docs</a></li>
+          <li><a href="/docs/en/overview">Docs</a></li>
           <li>
             <a href="https://github.com/all-contributors/all-contributors"
               >Github</a
@@ -46,14 +64,14 @@
       <div class="col-6 mobile-col-12">
         <h1>Recognize All Contributors</h1>
         <p>Including those that don't push code</p>
-        <a href="/docs/bot/installation" class="hero-button cta-button"
+        <a href="/docs/en/bot/installation" class="hero-button cta-button"
           >Add to Your Project</a
         >
       </div>
       <div class="col-7 mobile-col-12">
         <img
-          src="./img/hero.png"
-          srcset="./img/hero.png 1x, ./img/hero@2x.png 2x"
+          src="img/hero.png"
+          srcset="img/hero.png 1x, ./img/hero@2x.png 2x"
           alt="hero image"
         />
       </div>
@@ -65,21 +83,21 @@
           We’ve automated the tedious stuff for adding project contributors, so
           you can focus on your project instead of managing your ReadMe.
         </p>
-        <img
-          src="./img/add-contributors.png"
-          srcset="
-            ./img/add-contributors.png    1x,
-            ./img/add-contributors@2x.png 2x
-          "
-          alt="contributors screenshot"
-        />
+          <img
+            src="img/add-contributors.png"
+            srcset="
+              img/add-contributors.png    1x,
+              ./img/add-contributors@2x.png 2x
+            "
+            alt="contributors bot screenshot"
+          />
       </div>
     </div>
 
     <div class="container quick-links">
       <div class="tile-group">
         <div class="tile">
-          <a href="#">
+          <a href="/docs/en/overview">
             <div class="tile-icon">
               <img src="../img/article.svg" alt="documentation icon" />
             </div>
@@ -87,7 +105,7 @@
           </a>
         </div>
         <div class="tile">
-          <a href="#">
+          <a href="/docs/en/emoji-key">
             <div class="tile-icon">
               <img src="../img/emoji.svg" alt="emoji icon" />
             </div>
@@ -95,7 +113,7 @@
           </a>
         </div>
         <div class="tile">
-          <a href="#">
+          <a href="/docs/en/bot/usage">
             <div class="tile-icon">
               <img src="../img/help.svg" alt="help icon" />
             </div>
@@ -103,7 +121,7 @@
           </a>
         </div>
         <div class="tile">
-          <a href="#">
+          <a href="https://github.com/all-contributors/all-contributors-bot/issues">
             <div class="tile-icon">
               <img src="../img/warning.svg" alt="issue icon" />
             </div>
@@ -114,14 +132,14 @@
 
       <div class="container how-to">
         <div class="col-7 mobile-col-12">
-          <img
-            src="./img/how-it-works-graphic.png"
-            srcset="
-              ./img/how-it-works-graphic.png    1x,
-              ./img/how-it-works-graphic@2x.png 2x
-            "
-            alt="how it works"
-          />
+            <img
+              src="img/how-it-works-graphic.png"
+              srcset="
+                img/how-it-works-graphic.png    1x,
+                ./img/how-it-works-graphic@2x.png 2x
+              "
+              alt="how it works"
+            />
         </div>
         <div class="col-5 mobile-col-12">
           <h2>How it Works</h2>
@@ -130,7 +148,7 @@
               <h3>1. Install the Bot to your project</h3>
               <p>
                 Check the
-                <a href="/docs/bot/installation"> Installation doc</a> for how
+                <a href="/docs/en/bot/installation"> Installation doc</a> for how
                 to add it
               </p>
             </li>
@@ -140,7 +158,7 @@
               <h3>4. Add a contributor’s username and contribution type</h3>
               <p>
                 Check the contribution types in the
-                <a href="/docs/emoji-key">Emoji Key Cheatsheet</a>
+                <a href="/docs/en/emoji-key">Emoji Key Cheatsheet</a>
               </p>
             </li>
             <li>
@@ -157,32 +175,40 @@
       <p>There are 2000+ Projects using All Contributors!</p>
       <div class="user-logos">
         <div class="col-3 mobile-col-6">
-          <img
-            src="./img/p5js.png"
-            srcset="./img/p5js.png 1x, ./img/p5js@2x.png 2x"
-            alt="p5js logo"
-          />
+          <a href="https://github.com/processing/p5.js">
+            <img
+              src="img/p5js.png"
+              srcset="img/p5js.png 1x, ./img/p5js@2x.png 2x"
+              alt="p5js logo"
+            />
+          </a>
         </div>
         <div class="col-3 mobile-col-6">
-          <img
-            src="./img/snipeit.png"
-            srcset="./img/snipeit.png 1x, ./img/snipeit@2x.png 2x"
-            alt=""
-          />
+          <a href="https://github.com/snipe/snipe-it">
+            <img
+              src="img/snipeit.png"
+              srcset="img/snipeit.png 1x, ./img/snipeit@2x.png 2x"
+              alt="snipe it logo"
+            />
+          </a>
         </div>
         <div class="col-3 mobile-col-6">
-          <img
-            src="./img/golearning.png"
-            srcset="./img/golearning.png 1x, ./img/golearning@2x.png 2x"
-            alt=""
-          />
+          <a href="https://github.com/developer-learning/night-reading-go">
+            <img
+              src="img/golearning.png"
+              srcset="img/golearning.png 1x, ./img/golearning@2x.png 2x"
+              alt="night reading go logo"
+            />
+          </a>
         </div>
         <div class="col-3 mobile-col-6">
-          <img
-            src="formik.png"
-            srcset="./img/formik.png 1x, ./img/formik@2x.png"
-            alt=""
-          />
+          <a href="https://github.com/jaredpalmer/formik">
+            <img
+              src="formik.png"
+              srcset="img/formik.png 1x, ./img/formik@2x.png"
+              alt="formik logo"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -190,15 +216,15 @@
     <div class="final-cta">
       <div class="container final-cta centred-content">
         <h4>Start adding contributors to your project today</h4>
-        <a href="/docs/bot/installation" class="cta-button cta-primary"
+        <a href="/docs/en/bot/installation" class="cta-button cta-primary"
           >Add to Your Project</a
         >
-        <a href="/docs/overview" class="cta-button cta-secondary"
+        <a href="/docs/en/overview" class="cta-button cta-secondary"
           >Read the Docs</a
         >
       </div>
     </div>
 
-    <footer><div class="container"></div></footer>
+    <footer class="homepage__footer"><div class="container"></div></footer>
   </body>
 </html>

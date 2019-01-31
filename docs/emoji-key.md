@@ -6,17 +6,17 @@ sidebar_label: Emoji Key ✨
 
 ## Table
 
-> To have a contribution added when using the [Bot](/docs/bot/overview) or [CLI](/docs/cli/overview) use the keyword in the `Type` column. The bot will also use [basic Natural Language Parsing](https://github.com/all-contributors/all-contributors-bot/blob/master/src/tasks/processIssueComment/utils/parse-comment/index.js) to determine your contribution intent.
+> To have a contribution added when using the [Bot](bot/overview) or [CLI](cli/overview) use the keyword in the `Type` column. The bot will also use [basic Natural Language Parsing](https://github.com/all-contributors/all-contributors-bot/blob/master/src/tasks/processIssueComment/utils/parse-comment/index.js) to determine your contribution intent.
 
 Emoji/Type | Represents | Comments
 :---: | :---: | :---:
 💬 <br /> `question` | Answering Questions | Answering Questions in Issues, Stack Overflow, Gitter, Slack, etc.
 🐛 <br /> `bug` | Bug reports | links to issues reported by the user on this project
 📝 <br /> `blog` | Blogposts | links to the blogpost
-💼 <br /> N/I* | Business Development | people who execute on the business end
+💼 <br /> `business` | Business Development | people who execute on the business end
 💻 <br /> `code` | Code | links to commits by the user on this project
-🖋 <br /> N/I* | Content | e.g. website copy, blog posts are separate
-📖 <br /> `doc` | Documentation | links to commits by the user on this project`, Wiki, or other source of documentation
+🖋 <br /> `content` | Content | e.g. website copy, blog posts are separate
+📖 <br /> `doc` | Documentation | links to commits by the user on this project, Wiki, or other source of documentation
 🎨 <br /> `design` | Design | links to the logo/iconography/visual design/etc.
 💡 <br /> `examples` | Examples | links to the examples
 📋 <br /> `eventOrganizing` | Event Organizers | links to event page |
@@ -37,8 +37,6 @@ Emoji/Type | Represents | Comments
 📓 <br /> `userTesting` | User Testing | links to user test notes
 📹 <br /> `video` | Videos | links to the video
 
-*N/I: These contribution types are currently not supported by tooling.
-
 ## What's next
-- [Notes for repository maintainers](/docs/repository-maintainers)
-- [Automating the process using tools](/docs/tooling)
+- [Notes for repository maintainers](repository-maintainers)
+- [Automating the process using tools](tooling)

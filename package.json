@@ -2,8 +2,11 @@
   "scripts": {
     "start": "cd website && ../node_modules/.bin/docusaurus-start",
     "build": "cd website && ../node_modules/.bin/docusaurus-build",
+    "write-translations": "cd website && ../node_modules/.bin/docusaurus-write-translations",
+    "crowdin-upload": "crowdin --config crowdin.yaml upload sources --auto-update -b master",
+    "crowdin-download": "crowdin --config crowdin.yaml download -b master",
     "publish-gh-pages": "cd website && ../node_modules/.bin/docusaurus-publish",
-    "commit": "npx git-cz"
+    "commit": "git-cz"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",

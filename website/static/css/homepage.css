@@ -428,7 +428,7 @@ p {
 }
 
 /*--Footer--*/
-footer {
+.homepage__footer {
   background: var(--ppl-60);
   color: #fff;
   padding: 20px;
@@ -562,56 +562,4 @@ footer {
   .cta-button {
     width: 80%;
   }
-}
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
-}
-
-article p img,
-article iframe {
-  display: inline-block;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-}
-
-.footer-github {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-icon {
-  margin-right: 10px;
-}
-
-.fixedHeaderContainer {
-  background: #fff;
-  color: black;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-}
-
-.fixedHeaderContainer a,
-.navigationSlider .slidingNav ul li.siteNavItemActive a,
-.navigationSlider .slidingNav ul li.siteNavGroupActive a {
-  color: #0e0c33 !important;
-  background: #fff !important;
-}
-
-.navigationSlider .slidingNav ul li a {
-  color: black !important;
-  background: #fff !important;
-}
-
-.navigationSlider .slidingNav ul li a:hover {
-  background: #fff !important;
-  color: #0e0c33 !important;
-}
-
-a {
-  color: #008df9;
 }
