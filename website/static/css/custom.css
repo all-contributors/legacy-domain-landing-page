@@ -237,6 +237,12 @@ p {
   border-bottom: 4px solid #6e60e6;
   transition: 0.2s;
 }
+
+.header nav ul {
+  display: flex;
+  align-items: center;
+}
+
 .header nav ul li {
   display: inline;
   list-style: none;
@@ -465,7 +471,9 @@ footer {
     padding: 0;
     margin-bottom: 20px;
   }
-
+  .header nav ul {
+    justify-content: center;
+  }
   .header,
   .hero,
   .how-to {
