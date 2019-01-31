@@ -1,8 +1,8 @@
 /*--Clear & Set fonts--*/
 * {
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 *,
@@ -251,7 +251,7 @@ p {
 
 /*--Hero --*/
 .hero::before {
-  content: '';
+  content: "";
   background: url(../img/bg-swoop.svg);
   background-size: 2045px 380px;
   bottom: -40px;
@@ -404,6 +404,13 @@ p {
   margin-bottom: 32px;
 }
 
+.user-logos {
+  display: flex;
+  align-items: centre;
+  flex: 1;
+  margin: 0 auto;
+}
+
 /*--final cta--*/
 .final-cta {
   padding-top: 40px;
@@ -540,6 +547,13 @@ footer {
 
   .how-to li {
     margin-bottom: 20px;
+  }
+
+  .user-logos {
+    flex-wrap: wrap;
+  }
+  .user-logos div {
+    flex-basis: 200px;
   }
 
   .final-cta h4 {
