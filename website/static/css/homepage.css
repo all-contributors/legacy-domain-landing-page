@@ -1,23 +1,17 @@
 /*--Clear & Set fonts--*/
-* {
+.homepage * {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
 }
 
-*,
-*:before,
-*:after {
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
+.homepage body {
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
 
-p {
+.homepage p {
   line-height: 1.5;
 }
 
@@ -168,7 +162,7 @@ p {
 }
 
 /*--Layouts--*/
-.container {
+.homepage .container {
   margin: 0 auto;
   max-width: 1240px;
   padding: 0 20px;
@@ -214,43 +208,43 @@ p {
 }
 
 /*---Header Nav--*/
-.logo {
+.homepage .logo {
   height: 40px;
   margin: 20px;
 }
 
-.header {
+.homepage .header {
   display: flex;
   justify-content: space-between;
 }
 
-.header nav {
+.homepage .header nav {
   padding: 30px 20px 20px 20px;
 }
 
-.header nav a {
+.homepage .header nav a {
   text-decoration: none;
   color: var(--secondary-text);
 }
-.header nav a:hover {
+.homepage .header nav a:hover {
   color: #6e60e6;
   border-bottom: 4px solid #6e60e6;
   transition: 0.2s;
 }
 
-.header nav ul {
+.homepage .header nav ul {
   display: flex;
   align-items: center;
 }
 
-.header nav ul li {
+.homepage .header nav ul li {
   display: inline;
   list-style: none;
   margin-left: 20px;
 }
 
 /*--Hero --*/
-.hero::before {
+.homepage .hero::before {
   content: '';
   background: url(../img/bg-swoop.svg);
   background-size: 2045px 380px;
@@ -265,22 +259,22 @@ p {
   z-index: -100;
 }
 
-.hero {
+.homepage .hero {
   position: relative;
   display: flex;
   padding-top: 50px;
   padding-bottom: 200px;
   align-items: center;
 }
-.hero img {
+.homepage .hero img {
   width: 100%;
 }
-.hero h1 {
+.homepage .hero h1 {
   font-size: 52px;
   line-height: 1.2;
   margin-bottom: 8px;
 }
-.hero p {
+.homepage .hero p {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -342,7 +336,7 @@ p {
 }
 
 /*-- Quick Link Tiles --*/
-.quick-links {
+.homepage .quick-links {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -406,7 +400,7 @@ p {
 
 .user-logos {
   display: flex;
-  align-items: centre;
+  align-items: center;
   flex: 1;
   margin: 0 auto;
 }
@@ -466,9 +460,6 @@ p {
   }
 }
 
-@media only screen and (min-device-width: 350px) and (max-device-width: 1023px) {
-}
-
 @media only screen and (max-width: 650px) {
   .hide-mobile {
     display: none;
@@ -479,48 +470,48 @@ p {
     padding: 16px 24px;
   }
 
-  .container {
+  .homepage .container {
     padding-right: 10px;
     padding-left: 10px;
   }
 
-  .header nav {
+  .homepage .header nav {
     padding: 0;
     text-align: center;
   }
-  .header a {
+  .homepage .header a {
     text-align: center;
   }
-  .header nav li,
-  .header nav ul {
+  .homepage .header nav li,
+  .homepage .header nav ul {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
   }
-  .header nav ul {
+  .homepage .header nav ul {
     justify-content: center;
   }
-  .header,
-  .hero,
+  .homepage .header,
+  .homepage .hero,
   .how-to {
     flex-direction: column;
     flex-wrap: wrap;
   }
 
-  .hero div:nth-child(2) {
+  .homepage .hero div:nth-child(2) {
     order: -1;
   }
 
-  .hero h1 {
+  .homepage .hero h1 {
     font-size: 32px;
     padding-top: 20px;
   }
 
-  .hero p {
+  .homepage .hero p {
     font-size: 16px;
   }
 
-  .hero {
+  .homepage .hero {
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-top: 10px;
