@@ -36,9 +36,12 @@ jobs:
     steps:
       - prep_env
       - run:
-          name: Install crowdin
+          name: Start website
+          command: yarn start
+          background: true
+      - run:
+          name: Check for 404s
           command: |
-              yarn start &
               sleep 5000
               yarn blc http://localhost:3000 -ro
   deploy_website:
