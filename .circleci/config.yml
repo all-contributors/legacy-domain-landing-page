@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Check for 404s
           command: |
-              sleep 5000
+              sleep 5
               yarn blc http://localhost:3000 -ro
   deploy_website:
     <<: *docker_defaults
