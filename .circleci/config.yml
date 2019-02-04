@@ -37,13 +37,7 @@ jobs:
       - prep_env
       - run:
           name: Start website
-          command: yarn start
-          background: true
-      - run:
-          name: Check for 404s
-          command: |
-              sleep 5
-              yarn blc http://localhost:3000 -ro
+          command: yarn build
   deploy_website:
     <<: *docker_defaults
     working_directory: ~/repo
@@ -67,6 +61,14 @@ jobs:
             yarn crowdin-upload
             yarn crowdin-download
             CUSTOM_COMMIT_MESSAGE="[skip ci]" USE_SSH=true yarn publish-gh-pages
+  check_404s:
+    <<: *docker_defaults
+    working_directory: ~/repo
+    steps:
+      - prep_env
+      - run:
+          name: Install crowdin
+          command: yarn blc https://all-contributors.js.org -ro
 
 workflows:
   version: 2
@@ -83,6 +85,9 @@ workflows:
             branches:
               only:
                 - master
+      - check_404s:
+          requires:
+            - deploy_website
 
 experimental:
   notify:
