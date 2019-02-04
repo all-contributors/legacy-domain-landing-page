@@ -67,7 +67,10 @@ jobs:
     steps:
       - prep_env
       - run:
-          name: Install crowdin
+          name: Wait to hit CDN edges
+          command: sleep 60
+      - run:
+          name: Check 404s production
           command: yarn blc https://all-contributors.js.org -ro
 
 workflows:
