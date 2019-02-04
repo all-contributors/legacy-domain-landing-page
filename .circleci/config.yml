@@ -36,7 +36,7 @@ jobs:
     steps:
       - prep_env
       - run:
-          name: Start website
+          name: Build website
           command: yarn build
   deploy_website:
     <<: *docker_defaults
