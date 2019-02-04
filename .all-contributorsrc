@@ -46,6 +46,62 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "MarsXue",
+      "name": "Wenqing Xue",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21303543?v=4",
+      "profile": "http://marsx.vip",
+      "contributions": [
+        "translation",
+        "doc"
+      ]
+    },
+    {
+      "login": "Berkmann18",
+      "name": "Maximilian Berkmann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8260834?v=4",
+      "profile": "http://maxcubing.wordpress.com",
+      "contributions": [
+        "translation",
+        "doc"
+      ]
+    },
+    {
+      "login": "MatheusRV",
+      "name": "Matheus Rocha Vieira",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/23284276?v=4",
+      "profile": "http://matheu.srv.br",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "allcontributors",
+      "name": "allcontributors[bot]",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46843839?v=4",
+      "profile": "https://github.com/all-contributors/all-contributors-bot",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Greenkeeper[bot]",
+      "name": "Greenkeeper[bot]",
+      "avatar_url": "https://avatars3.githubusercontent.com/in/505?v=4",
+      "profile": "https://github.com/apps/greenkeeper",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "maryampaz",
+      "name": "Maryam Pazirandeh",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30090413?v=4",
+      "profile": "https://github.com/maryampaz",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
