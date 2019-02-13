@@ -1,0 +1,23 @@
+{
+  "projectName": "website",
+  "projectOwner": "all-contributors",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tbenning",
+      "name": "Tyler Benning",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7265547?v=4",
+      "profile": "http://www.tylerbenning.com",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
