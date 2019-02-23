@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "https://allcontributors.org/*"
+  to = "https://allcontributors.org/:splat"
   status = 302
