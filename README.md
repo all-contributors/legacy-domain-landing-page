@@ -1,6 +1,6 @@
 # Legacy landing page
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4aaac634-0895-43f3-8cf2-5280538deb57/deploy-status)](https://app.netlify.com/sites/agitated-poitras-59fa6c/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4aaac634-0895-43f3-8cf2-5280538deb57/deploy-status)](https://app.netlify.com/sites/all-contributors-js-org/deploys)
 
 This project merged with the main [all-contributors repository](https://github.com/all-contributors/all-contributors)
 and the site is now located at [allcontributors.org](https://allcontributors.org)
