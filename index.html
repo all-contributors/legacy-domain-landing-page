@@ -4,16 +4,63 @@
     <title>
       all-contributors.js.org has moved to allcontributors.org
     </title>
-    <link rel="manifest" href="/manifest.json" />
+    <link
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+      rel="stylesheet"
+    >
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://allcontributors.org/css/main.css" />
-    <script
-      type="text/javascript"
-      src="https://buttons.github.io/buttons.js"
-    ></script>
+    <style>
+      * {
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+          'Segoe UI Symbol';
+      }
+
+      html, body {
+        body: 100%;
+        height: 100%;
+      }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      h2{
+        color: #0f0b33;
+        margin-bottom: 8px;
+      }
+
+      p {
+        line-height: 1.5;
+        color: #312f45;
+      }
+
+      .logo {
+        width: 200px;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 640px;
+        padding: 0 20px;
+        text-align:center;
+      }
+
+      .motivation {
+        margin-top: 48px;
+        text-align: left
+      }
+
+      a {
+        color: #008df9;
+      }
+    </style>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,48 +71,15 @@
       ga('send', 'pageview');
     </script>
   </head>
-  <body class="homepage">
-    <header class="container header">
+  <body>
+    <div class="container">
       <a href="https://allcontributors.org"><img class="logo" src="https://allcontributors.org/img/logo.svg" alt="logo"/></a>
-      <nav>
-        <ul>
-          <li>
-            <a href="https://github.com/all-contributors/all-contributors"
-              >Github</a
-            >
-          </li>
-          <li class="github-star">
-            <a
-              class="github-button"
-              href="https://github.com/all-contributors/all-contributors"
-              data-icon="octicon-star"
-              data-count-href="/all-contributors/all-contributors/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub"
-              >Star</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="hero container">
-      <div class="col-6 mobile-col-12">
-        <h1>🚚</h1>
-        <p>all-contributors.js.org has moved to include all languages 🌎</p>
-        <a href="https://allcontributors.org" class="hero-button cta-button">allcontributors.org</a>
-      </div>
-      <div class="col-7 mobile-col-12">
-        <img
-          src="https://allcontributors.org/img/hero.png"
-          srcset="https://allcontributors.org/img/hero.png 1x, https://allcontributors.org/img/hero@2x.png 2x"
-          alt="hero image"
-        />
+      <h2>all-contributors.js.org has moved domains 🚚</h2>
+      <p>Head to the new domain, <a href="https://allcontributors.org">allcontributors.org</a></p>
+      <div class="motivation">
+        <h3>Motivation</h3>
+        <p>We've moved to an all inclusive language domain 🌎</p>
       </div>
     </div>
-
-    <div class="wave"></div>
-
-    <footer class="homepage__footer"><div class="container"></div></footer>
   </body>
 </html>
