@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "jakebolam",
+      "name": "Jake Bolam",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3534236?v=4",
+      "profile": "https://jakebolam.com",
+      "contributions": [
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "legacy-domain-landing-page",
+  "projectOwner": "all-contributors",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
